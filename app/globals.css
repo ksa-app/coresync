@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f5f6f8;
+  color: #1f2430;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="search"],
+select {
+  outline: none;
+}
+input:focus,
+select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
